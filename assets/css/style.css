@@ -14,6 +14,7 @@ header {
 
 h1 {
     margin-left: 35px;
+    color: steelblue;
 }
 
 nav {
@@ -40,4 +41,19 @@ nav a {
 
 #photo {
     float: right;
+    padding: 5px;
+    background: lightgray;
+}
+
+#about-me {
+    height: 500px;
+    border-left: 10px solid green;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+p {
+    font-size: 25px;
+    margin-right: 0px;
 }
