@@ -90,20 +90,41 @@ nav a {
     color: green;
 }
 
-#work-screenshot-1 {
-    position: absolute;
-    width: 960px;
-    background: lightgray;
-    padding: 8px;
-    top: 1000px;
-    left: 38%;
-}
+    /* 1st work entry */
+    #work-screenshot-1 {
+        position: absolute;
+        width: 960px;
+        background: lightgray;
+        padding: 8px;
+        top: 1000px;
+        left: 38%;
+    }
 
-#work-title-1 {
-    position: absolute;
-    width: 125px;
-    background: lightgray;
-    top: 1200px;
-    left: 38%;
-    margin-left: 8px;
-}
+    #work-title-1 {
+        position: absolute;
+        width: 125px;
+        background: lightgray;
+        top: 1200px;
+        left: 38%;
+        margin-left: 8px;
+    }
+
+    /* 2nd work entry */
+    #work-screenshot-2 {
+        position: absolute;
+        width: 300px;
+        background: lightgray;
+        top: 1500px;
+        left: 38%;
+        padding: 8px;
+        height: 300px;
+    }
+
+    #work-title-2 {
+        position: absolute;
+        width: 125px;
+        background: lightgray;
+        top: 1680px;
+        left: 38%;
+        margin-left: 8px;
+    }
