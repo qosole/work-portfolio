@@ -28,18 +28,18 @@ nav {
 }
 
 /* Reformatting the default link styling */
-nav a {
+a {
     color: green;
     text-decoration: none;
     border-bottom: 3px dashed steelblue;
 }
 
-    nav a:hover {
+    a:hover {
         color: steelblue;
         border-bottom: 3px solid steelblue;
     }
 
-    nav a:active {
+    a:active {
         color: red;
         border-bottom: 3px solid red;
     }
@@ -90,79 +90,94 @@ nav a {
     color: green;
 }
 
-    /* 1st work entry (about me page) */
-    #work-screenshot-1 {
-        position: absolute;
-        width: 1050px;
-        background: lightgray;
-        padding: 8px;
-        top: 1000px;
-        left: 38%;
-    }
-
-    #work-title-1 {
-        position: absolute;
-        width: 125px;
-        background: lightgray;
-        top: 1220px;
-        left: 38%;
-        margin-left: 8px;
-    }
-
+/* 1st work entry (about me page) */
+#work-screenshot-1 {
+    position: absolute;
+    width: 1050px;
+    background: lightgray;
+    padding: 8px;
+    top: 1000px;
+    left: 38%;
+}
     #work-screenshot-1:hover {
         width: 1085px;
         height: 400px;
         cursor: grab;
     }
 
-    /* 2nd work entry (landing page) */
-    #work-screenshot-2 {
-        position: absolute;
-        width: 300px;
-        background: lightgray;
-        top: 1500px;
-        left: 38%;
-        padding: 8px;
-        height: 300px;
-    }
+#work-title-1 {
+    position: absolute;
+    width: 125px;
+    background: lightgray;
+    top: 1220px;
+    left: 38%;
+    margin-left: 8px;
+}
 
-    #work-title-2 {
-        position: absolute;
-        width: 125px;
-        background: lightgray;
-        top: 1670px;
-        left: 38%;
-        margin-left: 8px;
-    }
-
+/* 2nd work entry (landing page) */
+#work-screenshot-2 {
+    position: absolute;
+    width: 300px;
+    background: lightgray;
+    top: 1500px;
+    left: 38%;
+    padding: 8px;
+    height: 300px;
+}
     #work-screenshot-2:hover {
         width: 335px;
         height: 335px;
         cursor: grab;
     }
 
-    /* 3rd work entry (css cheatsheet) */
-    #work-screenshot-3 {
-        position: absolute;
-        width: 600px;
-        background: lightgray;
-        top: 1500px;
-        left: 61%;
-        padding: 8px;
-        height: 300px;
-    }
+#work-title-2 {
+    position: absolute;
+    width: 125px;
+    background: lightgray;
+    top: 1670px;
+    left: 38%;
+    margin-left: 8px;
+}
 
-    #work-title-3 {
-        position: absolute;
-        width: 125px;
-        background: lightgray;
-        top: 1660px;
-        left: 61%;
-        margin-left: 8px;
-    }
-
+/* 3rd work entry (css cheatsheet) */
+#work-screenshot-3 {
+    position: absolute;
+    width: 600px;
+    background: lightgray;
+    top: 1500px;
+    left: 61%;
+    padding: 8px;
+    height: 300px;
+}
     #work-screenshot-3:hover {
         width: 635px;
         height: 335px;
         cursor: grab;
     }
+
+#work-title-3 {
+    position: absolute;
+    width: 125px;
+    background: lightgray;
+    top: 1660px;
+    left: 61%;
+    margin-left: 8px;
+}
+
+
+
+/* Contact Me section */
+#contact-me-label h2 {
+    position: absolute;
+    left: 22%;
+    top: 2000px;
+    color: green;
+}
+
+#contact-me-links {
+    position: absolute;
+    left: 38%;
+    top: 2000px;
+    font-size: 35px;
+    font-weight: bold;
+}
