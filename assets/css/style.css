@@ -49,10 +49,11 @@ nav a {
 /* About Me section */
 #photo {
     position: absolute;
-    padding: 5px;
+    padding: 8px;
     background: lightgray;
     margin-top: 50px;
     right: 350px;
+    height: 500px;
 }
 
 #about-me-label h2 {
@@ -63,7 +64,7 @@ nav a {
 }
 
 #about-me {
-    height: 800px;
+    height: 2000px;
     width: 500px;
     border-left: 10px solid green;
     position: absolute;
@@ -78,3 +79,31 @@ nav a {
         max-width: 500px;
         overflow-wrap: break-word;
     }
+
+
+
+/* Work section */
+#work-label h2 {
+    position: absolute;
+    left: 25%;
+    top: 1000px;
+    color: green;
+}
+
+#work-screenshot-1 {
+    position: absolute;
+    width: 960px;
+    background: lightgray;
+    padding: 8px;
+    top: 1000px;
+    left: 38%;
+}
+
+#work-title-1 {
+    position: absolute;
+    width: 125px;
+    background: lightgray;
+    top: 1200px;
+    left: 38%;
+    margin-left: 8px;
+}
