@@ -104,9 +104,15 @@ nav a {
         position: absolute;
         width: 125px;
         background: lightgray;
-        top: 1200px;
+        top: 1220px;
         left: 38%;
         margin-left: 8px;
+    }
+
+    #work-screenshot-1:hover {
+        width: 1085px;
+        height: 400px;
+        cursor: grab;
     }
 
     /* 2nd work entry (landing page) */
@@ -124,9 +130,15 @@ nav a {
         position: absolute;
         width: 125px;
         background: lightgray;
-        top: 1680px;
+        top: 1670px;
         left: 38%;
         margin-left: 8px;
+    }
+
+    #work-screenshot-2:hover {
+        width: 335px;
+        height: 335px;
+        cursor: grab;
     }
 
     /* 3rd work entry (css cheatsheet) */
@@ -144,7 +156,13 @@ nav a {
         position: absolute;
         width: 125px;
         background: lightgray;
-        top: 1680px;
+        top: 1660px;
         left: 61%;
         margin-left: 8px;
+    }
+
+    #work-screenshot-3:hover {
+        width: 635px;
+        height: 335px;
+        cursor: grab;
     }
