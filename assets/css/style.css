@@ -7,6 +7,9 @@ body {
     background: lightsteelblue;
 }
 
+
+
+/* Header bar */
 header {
     background: lightgray;
     padding: 0.5%;
@@ -30,30 +33,48 @@ nav a {
     text-decoration: none;
     border-bottom: 3px dashed steelblue;
 }
+
     nav a:hover {
         color: steelblue;
         border-bottom: 3px solid steelblue;
     }
+
     nav a:active {
         color: red;
         border-bottom: 3px solid red;
     }
 
+
+
+/* About Me section */
 #photo {
-    float: right;
+    position: absolute;
     padding: 5px;
     background: lightgray;
+    margin-top: 50px;
+    right: 350px;
+}
+
+#about-me-label h2 {
+    position: absolute;
+    left: 23%;
+    top: 150px;
+    color: green;
 }
 
 #about-me {
-    height: 500px;
+    height: 800px;
+    width: 500px;
     border-left: 10px solid green;
     position: absolute;
-    top: 30%;
+    top: 150px;
     left: 30%;
 }
 
-p {
-    font-size: 25px;
-    margin-right: 0px;
-}
+    #about-me p {
+        position: absolute;
+        top: 7px;
+        left: 5%;
+        max-width: 500px;
+        overflow-wrap: break-word;
+    }
