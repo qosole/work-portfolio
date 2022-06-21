@@ -90,10 +90,10 @@ nav a {
     color: green;
 }
 
-    /* 1st work entry */
+    /* 1st work entry (about me page) */
     #work-screenshot-1 {
         position: absolute;
-        width: 960px;
+        width: 1050px;
         background: lightgray;
         padding: 8px;
         top: 1000px;
@@ -109,7 +109,7 @@ nav a {
         margin-left: 8px;
     }
 
-    /* 2nd work entry */
+    /* 2nd work entry (landing page) */
     #work-screenshot-2 {
         position: absolute;
         width: 300px;
@@ -126,5 +126,25 @@ nav a {
         background: lightgray;
         top: 1680px;
         left: 38%;
+        margin-left: 8px;
+    }
+
+    /* 3rd work entry (css cheatsheet) */
+    #work-screenshot-3 {
+        position: absolute;
+        width: 600px;
+        background: lightgray;
+        top: 1500px;
+        left: 61%;
+        padding: 8px;
+        height: 300px;
+    }
+
+    #work-title-3 {
+        position: absolute;
+        width: 125px;
+        background: lightgray;
+        top: 1680px;
+        left: 61%;
         margin-left: 8px;
     }
