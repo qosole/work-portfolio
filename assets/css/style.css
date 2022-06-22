@@ -181,3 +181,208 @@ a {
     font-size: 35px;
     font-weight: bold;
 }
+
+
+
+/* Making the website readable on smaller screens/resolutions */
+@media screen and (max-width: 1750px) {
+    #work-screenshot-1 {
+        width: 900px;
+    }
+        #work-screenshot-1:hover {
+            width: 935px;
+            height: 350px;
+        }
+}
+@media screen and (max-width: 1750px) {
+    #work-title-1 {
+        top: 1180px;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    #photo {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-screenshot-1 {
+        width: 450px;
+    }
+        #work-screenshot-1:hover {
+            width: 485px;
+            height: 200px;
+        }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-title-1 {
+        top: 1070px;
+        width: 100px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-screenshot-2 {
+        width: 150px;
+        height: 150px;
+        top: 1300px;
+    }
+        #work-screenshot-2:hover {
+            width: 185px;
+            height: 185px;
+        }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-title-2 {
+        top: 1360px;
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-screenshot-3 {
+        width: 300px;
+        height: 150px;
+        top: 1300px;
+    }
+        #work-screenshot-3:hover {
+            width: 335px;
+            height: 185px;
+        }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-title-3 {
+        top: 1360px;
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #about-me-label h2 {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #work-label h2 {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #contact-me-label h2 {
+        left: 15%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    #photo {
+        left: 25px;
+        margin-top: 150px;
+        background: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #contact-me-links {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    nav {
+        top: 60px;
+    }
+    header {
+        padding: 1.5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photo {
+        left: 0;
+        padding: 0;
+    }
+    #photo img {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #about-me-label h2 {
+        left: 7%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #about-me p {
+        max-width: 250px;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #work-label h2 {
+        top: 1100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #contact-me-label h2 {
+        left: 3%;
+        top: 1600px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #work-screenshot-1 {
+        width: 250px;
+        top: 1170px;
+    }
+        #work-screenshot-1:hover {
+            width: 260px;
+            height: 100px;
+        }
+    #work-title-1 {
+        top: 1150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #work-screenshot-2 {
+        width: 70px;
+        height: 70px;
+    }
+        #work-screenshot-2:hover {
+            width: 80px;
+            height: 80px;
+        }
+}
+
+@media screen and (max-width: 800px) {
+    #work-screenshot-3 {
+        width: 70px;
+        height: 70px;
+    }
+        #work-screenshot-3:hover {
+            width: 80px;
+            height: 80px;
+        }
+}
+
+@media screen and (max-width: 800px) {
+    #contact-me-links {
+        top: 1600px;
+        font-size: 16px;
+    }
+}
