@@ -64,7 +64,7 @@ a {
 }
 
 #about-me {
-    height: 2000px;
+    height: 2400px;
     width: 500px;
     border-left: 10px solid green;
     position: absolute;
@@ -164,20 +164,45 @@ a {
     margin-left: 8px;
 }
 
+/* 4th work entry (jedi clicker) */
+#work-screenshot-4 {
+    position: absolute;
+    width: 600px;
+    background: lightgray;
+    top: 1900px;
+    left: 38%;
+    padding: 8px;
+    height: 300px;
+}
+    #work-screenshot-4:hover {
+        width: 635px;
+        height: 335px;
+        cursor: grab;
+    }
+
+#work-title-4 {
+    position: absolute;
+    width: 125px;
+    background: lightgray;
+    top: 2060px;
+    left: 38%;
+    margin-left: 8px
+}
+
 
 
 /* Contact Me section */
 #contact-me-label h2 {
     position: absolute;
     left: 22%;
-    top: 2000px;
+    top: 2300px;
     color: green;
 }
 
 #contact-me-links {
     position: absolute;
     left: 38%;
-    top: 2000px;
+    top: 2300px;
     font-size: 35px;
     font-weight: bold;
 }
